@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Pretendo";
+  src: url(../font/Pretendo.ttf) format('truetype');
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+    font-family: "Pretendo";
+    color: white;
+    justify-content: center;
+}
+
+h3 {
+    margin: 30px 0px;
+}
+
+.header {
+  background-color: #DE0000;
+  padding: 15px;
+  border-bottom: 3px black solid;
+}
+
+.system {
+  border: 2px black solid;
+  justify-content: center;
+}
+
+.gameIcon {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+}
+
+.gameTitle {
+  width: 300px;
+  margin-top: 5px;
+  background-color: #DE0000;
+}
+
+.gameTitle:hover {
+  background-color: #FF5555;
+}
+
+.gameInfo {
+  width: 400px;
+  border: 2px pink solid;
+}
+
+.hidden {
+  display: none;
+}
+
